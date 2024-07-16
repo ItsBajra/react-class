@@ -11,17 +11,19 @@ function Navbar() {
           <div className="flex space-x-7">
             <div>
               {/* Logo */}
-              <Link to="/" className="flex items-center py-4 px-2">
-                <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" />
+              <Link to="/" className="flex items-center py-4 mr-10">
+                {/* <img src="/logo.png" alt="Logo" className="h-8 w-8 mr-2" /> */}
                 <span className="font-semibold text-gray-500 text-lg">HealMe</span>
               </Link>
             </div>
             {/* Primary Navbar items */}
-            <div className="hidden md:flex items-center space-x-1">
+            <div className=" hidden md:flex items-center space-x-1">
               <Link to="/" className="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold ">Home</Link>
               <Link to="/shop" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Shop</Link>
               <Link to="/about" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</Link>
               <Link to="/contact" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</Link>
+              <Link to="/product" className="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Product</Link>
+
             </div>
           </div>
           {/* Secondary Navbar items */}
@@ -55,8 +57,11 @@ function Navbar() {
             <li><Link to="/shop" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Shop</Link></li>
             <li><Link to="/about" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</Link></li>
             <li><Link to="/contact" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact</Link></li>
+            <li><Link to="/product" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Product</Link></li>
+
             <li><Link to="/login" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Log In</Link></li>
             <li><Link to="/signup" className="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Sign Up</Link></li>
+            
           </ul>
         </div>
       )}
