@@ -10,8 +10,8 @@ import HomeComponent  from "./components/Home/HomeComponent"
 import ShopComponent from "./components/Shop/ShopComponent"
 import Navbar from "./components/Navbar/navbar";
 import ProductComponent from "./components/productComponent/ProductComponent";
-import LoginComponent from "./Login/LoginComponent";
-import SignupComponent from "./Signup/SignupComponent";
+import LoginComponent from "./components/Login/LoginComponent";
+import SignupComponent from "./components/Signup/SignupComponent";
 
 class App extends Component {
   render() {
